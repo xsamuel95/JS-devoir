@@ -1,12 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo 2</title>
+</head>
+
+<body>
+    <script>
 
 var stringsearch = "o"
        ,str = "bonjour o";
     for(var count=-1,index=-2; index != -1; count++,index=str.indexOf(stringsearch,index+1) );
+</script>
 
-
+<script>
     // autre manière de faire
 
 
     var temp = "Je mappelle Samuel";
     var count = (temp.match(/l/g) || []).length;
     console.log(count);
+</script>
+
+</body>
+</html>
